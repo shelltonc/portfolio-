@@ -27,19 +27,13 @@ header {
 
 header a {
     background: #333;
-    color: #000;
+    color: #fff;
     padding-top: 30px;
     min-height: 70px;
     font-size: 16px;
 }
 
-header a:hover {
-    background: #77aaff;
-}
-
-
-
-header ul {
+header ul{
     padding: 0;
     list-style: none;
 }
@@ -76,7 +70,7 @@ header .container::after {
     margin-bottom: 40px;
 }
 
-#hero .btn {
+#hero .btn{
     font-size: 18px;
     color: #fff;
     background: #77aaff;
@@ -93,7 +87,7 @@ section {
     padding: 60px 0;
 }
 
-section h2 {
+section h2{
     text-align: center;
     margin-bottom: 40px;
     font-size: 36px;
@@ -116,7 +110,7 @@ section h2 {
     border: 1px solid #ddd;
 }
 
-#projects .project img {
+#projects .project img{
     max-width: 150px;
     margin-right: 20px;
     border-radius: 5px;
@@ -149,10 +143,10 @@ section h2 {
 
 #contact form input,
 #contact form textarea {
-    width: 20%;
+    widht: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 2px solid #5599ee;
+    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
@@ -160,7 +154,7 @@ section h2 {
     background: #77aaff;
     color: #fff;
     border: 0;
-    cursor: pointer;
+    cursos: pointer;
     font-size: 18px;
     padding: 10px 20px;
 }
@@ -175,9 +169,4 @@ footer {
     text-align: center;
     padding: 30px 0;
     margin-top: 40px
-}
-
-
-p strong {
-    color: #ffff00;
 }
